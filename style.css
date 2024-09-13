@@ -1,6 +1,10 @@
 body {
-    background-color: skyblue;
+    background-color: #9a3e34;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 /* recipes page */
@@ -12,18 +16,21 @@ body {
 }
 
 .recipe {
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     border: solid 3px white;
     text-align: center;
 }
 
 .recipe img {
-    max-width: 200px;
+    max-width: 100%;
+    height: auto;
 }
 
 /* ingredients page */
 .container {
     display: flex;
+    padding: 20px;
 }
 
 .ingredients {
